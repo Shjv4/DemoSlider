@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) UILabel *myLabel;
+@property (strong, nonatomic) UISlider *mySlider;
+@property (strong, nonatomic) UIImageView *myImageView; 
 @end

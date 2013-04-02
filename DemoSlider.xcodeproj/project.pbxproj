@@ -18,6 +18,7 @@
 		7CE93F28170A7F75006B656C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE93F27170A7F75006B656C /* Default-568h@2x.png */; };
 		7CE93F2B170A7F75006B656C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE93F2A170A7F75006B656C /* ViewController.m */; };
 		7CE93F2E170A7F75006B656C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CE93F2C170A7F75006B656C /* ViewController.xib */; };
+		7CE93F36170A8C37006B656C /* Bane256.ico in Resources */ = {isa = PBXBuildFile; fileRef = 7CE93F35170A8C37006B656C /* Bane256.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7CE93F29170A7F75006B656C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7CE93F2A170A7F75006B656C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CE93F2D170A7F75006B656C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7CE93F35170A8C37006B656C /* Bane256.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Bane256.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		7CE93F17170A7F75006B656C /* DemoSlider */ = {
 			isa = PBXGroup;
 			children = (
+				7CE93F34170A8C1A006B656C /* Resources */,
 				7CE93F20170A7F75006B656C /* AppDelegate.h */,
 				7CE93F21170A7F75006B656C /* AppDelegate.m */,
 				7CE93F29170A7F75006B656C /* ViewController.h */,
@@ -105,6 +108,14 @@
 				7CE93F27170A7F75006B656C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CE93F34170A8C1A006B656C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CE93F35170A8C37006B656C /* Bane256.ico */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				7CE93F26170A7F75006B656C /* Default@2x.png in Resources */,
 				7CE93F28170A7F75006B656C /* Default-568h@2x.png in Resources */,
 				7CE93F2E170A7F75006B656C /* ViewController.xib in Resources */,
+				7CE93F36170A8C37006B656C /* Bane256.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoSlider/DemoSlider-Prefix.pch";
 				INFOPLIST_FILE = "DemoSlider/DemoSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoSlider/DemoSlider-Prefix.pch";
 				INFOPLIST_FILE = "DemoSlider/DemoSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
